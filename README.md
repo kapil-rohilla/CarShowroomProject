@@ -55,14 +55,3 @@ mvn clean compile exec:java -Dexec.mainClass="com.car_showroom_project.Main"
 
 4. Follow the on-screen menu to add or view Showrooms, Employees, and Cars.
 
-## Notes
-
-Do not commit the Firebase service account JSON.
-
-Firestore collections used: Showrooms, Showrooms/{showroomId}/Employees, Showrooms/{showroomId}/Cars.
-
-**License**
-
-MIT License
-
-
